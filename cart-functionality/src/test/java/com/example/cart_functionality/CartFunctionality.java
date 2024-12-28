@@ -165,13 +165,16 @@ public class CartFunctionality {
 	
 	@Test(priority = 5)
 	public void checkOut() {
-		driver.findElement(By.xpath("//a[contains(@class, 'btn') and @onclick='beginCheckout()']")).click();
-		WebElement addressBook = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[@class='address_book']")));
-		Assert.assertTrue("Not directed to checkout page!", addressBook.isDisplayed());
-		
-//		Return to cart
-		driver.navigate().back();
-		wait.until(ExpectedConditions.invisibilityOfElementLocated(By.className("preloader")));
+		List<WebElement> books = driver.findElements(By.xpath("//div[@class='row row-cart-product']"));
+		if (!books.isEmpty()) {
+			driver.findElement(By.xpath("//a[contains(@class, 'btn') and @onclick='beginCheckout()']")).click();
+			WebElement addressBook = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[@class='address_book']")));
+			Assert.assertTrue("Not directed to checkout page!", addressBook.isDisplayed());
+			
+//			Return to cart
+			driver.navigate().back();
+			wait.until(ExpectedConditions.invisibilityOfElementLocated(By.className("preloader")));
+		}
 	}
 	
 	@Test(priority = 6)

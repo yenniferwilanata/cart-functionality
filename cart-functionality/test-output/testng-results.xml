@@ -2,40 +2,40 @@
 <testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-12-27T21:46:43 WIB" name="Default suite" finished-at="2024-12-27T21:48:35 WIB" duration-ms="111868">
+  <suite started-at="2024-12-28T08:50:01 WIB" name="Default suite" finished-at="2024-12-28T08:51:27 WIB" duration-ms="86081">
     <groups>
     </groups>
-    <test started-at="2024-12-27T21:46:43 WIB" name="Default test" finished-at="2024-12-27T21:48:35 WIB" duration-ms="111868">
+    <test started-at="2024-12-28T08:50:01 WIB" name="Default test" finished-at="2024-12-28T08:51:27 WIB" duration-ms="86081">
       <class name="com.example.cart_functionality.CartFunctionality">
-        <test-method is-config="true" signature="open()[pri:0, instance:com.example.cart_functionality.CartFunctionality@5890e879]" started-at="2024-12-27T21:46:43 WIB" name="open" finished-at="2024-12-27T21:48:01 WIB" duration-ms="77920" status="PASS">
+        <test-method is-config="true" signature="open()[pri:0, instance:com.example.cart_functionality.CartFunctionality@5890e879]" started-at="2024-12-28T08:50:01 WIB" name="open" finished-at="2024-12-28T08:50:53 WIB" duration-ms="51453" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- open -->
-        <test-method signature="editQty()[pri:1, instance:com.example.cart_functionality.CartFunctionality@5890e879]" started-at="2024-12-27T21:48:01 WIB" name="editQty" finished-at="2024-12-27T21:48:07 WIB" duration-ms="5920" status="PASS">
+        <test-method signature="editQty()[pri:1, instance:com.example.cart_functionality.CartFunctionality@5890e879]" started-at="2024-12-28T08:50:53 WIB" name="editQty" finished-at="2024-12-28T08:51:01 WIB" duration-ms="8187" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- editQty -->
-        <test-method signature="removeBook()[pri:2, instance:com.example.cart_functionality.CartFunctionality@5890e879]" started-at="2024-12-27T21:48:07 WIB" name="removeBook" finished-at="2024-12-27T21:48:08 WIB" duration-ms="978" status="PASS">
+        <test-method signature="removeBook()[pri:2, instance:com.example.cart_functionality.CartFunctionality@5890e879]" started-at="2024-12-28T08:51:01 WIB" name="removeBook" finished-at="2024-12-28T08:51:03 WIB" duration-ms="1920" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- removeBook -->
-        <test-method signature="saveForLater()[pri:3, instance:com.example.cart_functionality.CartFunctionality@5890e879]" started-at="2024-12-27T21:48:08 WIB" name="saveForLater" finished-at="2024-12-27T21:48:18 WIB" duration-ms="10483" status="PASS">
+        <test-method signature="saveForLater()[pri:3, instance:com.example.cart_functionality.CartFunctionality@5890e879]" started-at="2024-12-28T08:51:03 WIB" name="saveForLater" finished-at="2024-12-28T08:51:13 WIB" duration-ms="10357" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- saveForLater -->
-        <test-method signature="removeSaveForLater()[pri:4, instance:com.example.cart_functionality.CartFunctionality@5890e879]" started-at="2024-12-27T21:48:18 WIB" name="removeSaveForLater" finished-at="2024-12-27T21:48:26 WIB" duration-ms="7935" status="PASS">
+        <test-method signature="removeSaveForLater()[pri:4, instance:com.example.cart_functionality.CartFunctionality@5890e879]" started-at="2024-12-28T08:51:13 WIB" name="removeSaveForLater" finished-at="2024-12-28T08:51:22 WIB" duration-ms="8209" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- removeSaveForLater -->
-        <test-method signature="checkOut()[pri:5, instance:com.example.cart_functionality.CartFunctionality@5890e879]" started-at="2024-12-27T21:48:26 WIB" name="checkOut" finished-at="2024-12-27T21:48:30 WIB" duration-ms="3946" status="PASS">
+        <test-method signature="checkOut()[pri:5, instance:com.example.cart_functionality.CartFunctionality@5890e879]" started-at="2024-12-28T08:51:22 WIB" name="checkOut" finished-at="2024-12-28T08:51:22 WIB" duration-ms="7" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkOut -->
-        <test-method signature="homePage()[pri:6, instance:com.example.cart_functionality.CartFunctionality@5890e879]" started-at="2024-12-27T21:48:30 WIB" name="homePage" finished-at="2024-12-27T21:48:35 WIB" duration-ms="4557" status="PASS">
+        <test-method signature="homePage()[pri:6, instance:com.example.cart_functionality.CartFunctionality@5890e879]" started-at="2024-12-28T08:51:22 WIB" name="homePage" finished-at="2024-12-28T08:51:27 WIB" duration-ms="5618" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- homePage -->
-        <test-method is-config="true" signature="close()[pri:0, instance:com.example.cart_functionality.CartFunctionality@5890e879]" started-at="2024-12-27T21:48:35 WIB" name="close" finished-at="2024-12-27T21:48:35 WIB" duration-ms="98" status="PASS">
+        <test-method is-config="true" signature="close()[pri:0, instance:com.example.cart_functionality.CartFunctionality@5890e879]" started-at="2024-12-28T08:51:27 WIB" name="close" finished-at="2024-12-28T08:51:27 WIB" duration-ms="245" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
